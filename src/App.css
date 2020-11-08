@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  box-shadow: 0px 0px 20px 10px #929eaa;
+  height: 80vh;
+  width: 80%;
+  margin: auto;
+  margin-top: 3em;
+  padding: 2em;
+  overflow: scroll;
+}
+
+.App::-webkit-scrollbar {
+  display: none;
+}

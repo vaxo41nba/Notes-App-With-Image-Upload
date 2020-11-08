@@ -1,0 +1,22 @@
+.notes-container {
+  margin-top: 1.5em;
+}
+
+.notes {
+  display: grid;
+  grid-gap: 1.5em;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+#icon-signOut {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+button.MuiIconButton-sizeSmall {
+  margin-top: 15px;
+  margin-right: -0.5em;
+  margin-bottom: 1em;
+  padding: 0;
+}

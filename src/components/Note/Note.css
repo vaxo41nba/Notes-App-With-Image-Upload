@@ -1,0 +1,21 @@
+.note-container {
+  height: 15em;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1.5em;
+  cursor: pointer;
+  border-bottom-left-radius: 10%;
+  box-shadow: 3px 3px 7px 3px #999;
+}
+
+.note-body {
+  white-space: pre-line;
+  overflow: scroll;
+  margin-bottom: 1em;
+}
+.note-body::-webkit-scrollbar {
+  display: none;
+}

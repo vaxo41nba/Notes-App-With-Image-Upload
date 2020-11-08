@@ -1,0 +1,9 @@
+.page-title {
+  font-size: xx-large;
+  margin-top: 0px;
+  text-align: center;
+}
+.icons {
+  display: flex;
+  justify-content: flex-end;
+}
